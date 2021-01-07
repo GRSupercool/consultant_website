@@ -19,8 +19,9 @@ h1 {
 
 h3 {
     font-family: Cormorant;
-    font-size: 80px;
+    font-size: 90px;
     text-align: left;
+    line-height: 2;
 }
 
 h6 {
