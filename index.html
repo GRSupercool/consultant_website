@@ -4,16 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Consultant Website Sample</title>
+    <title>Georgina Portfolio</title>
 </head>
 <!--CSS stylesheets-->
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="styles.css">
 
 <!---Google Fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Merriweather:wght@300&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
 <!---Boostrap CDN-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -49,7 +56,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <div class="container-fluid">
             <!--Navbar Brand-->
-            <a class="navbar-brand" href="#">Logo</a>
+            <a class="navbar-brand" href="#">Georgina Ramirez</a>
             <!--Toggler-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -61,13 +68,14 @@
                         <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Services</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
+
                     <li class="nav-item ml-auto">
-                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                        <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -76,17 +84,74 @@
     <!--Header-->
     <section id="Header">
         <div class="container">
-            <div class="row">
-                <div class="col-6-lg col-6-md">
-                    <h1>Company Name</h1>
-                    <h2>tagline</h2>
-                </div>
-                <div class="col-6-lg col-6-md">
-                    <img class="" src="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea animi corrupti impedit culpa eum itaque dolores dolorum quisquam quas aperiam expedita minus voluptates illum, aut debitis mollitia hic nulla vero!</p>
-                    <button type="button" class="btn btn-outline-primary btn-lg">Free Consultation</button>
+            <h1 class="large-header">Georgina Ramirez</h1>
+            <p>Hi! Im a front end developer. UI and UX are simply fun and exciting.<br> Bringing it all together with code is enjoyable.<br> Let's collaborate on a meaningful project.</p>
+            <button type="button" class="btn btn-outline-dark">Schedule an Meeting</button>
+        </div>
+
+    </section>
+    <!---Portfolio-->
+    <section id="portfolio">
+        <div class="container">
+            <h6>My Work</h6>
+            <h1>Portfolio</h1>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="..." alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Responsive Websites</h5>
+                            <ul class=" project-description card-text">
+                                <li>Company Name:Beauty and Grace</li>
+                                <li>Skills: HTML | CSS | Javascript</li>
+                                <li>Software:React</li>
+                            </ul>
+
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-sm">
+                    <p>
+                        <firstletter>01</firstletter>
+                    </p>
+                    <h3>Responsive Websites</h3>
+                    <ul class="project-description">
+                        <li>Company Name:Beauty and Grace</li>
+                        <li>Skills: HTML | CSS | Javascript</li>
+                        <li>Software:React</li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    project image
+                </div>
+            </div>
+        </div>
+        <!--Second Row -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    02 project description
+                </div>
+                <div class="col-sm">
+                    project image
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!--Portfolio-->
+    <section id="Portfolio">
+        <div class="container">
+            <h1>About </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum magnam distinctio vero aliquam dolores, voluptate doloremque, atque repellat itaque similique, eligendi quos obcaecati sequi inventore ipsam dolorum id laborum.</p>
+        </div>
     </section>
     <!--About-->
     <section id="About">
